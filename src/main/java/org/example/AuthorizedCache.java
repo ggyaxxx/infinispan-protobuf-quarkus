@@ -45,7 +45,7 @@ public class AuthorizedCache {
                 .clientIntelligence(ClientIntelligence.BASIC)
                 .security().authentication()
                 .username("mario") // Qui usa i valori del Secret
-                .password("passwordld!")
+                .password("!crQbYN>J)S(d]!v")
                 .realm("default")
                 .saslMechanism("SCRAM-SHA-512"); // Aggiornato secondo il tuo properties
 
