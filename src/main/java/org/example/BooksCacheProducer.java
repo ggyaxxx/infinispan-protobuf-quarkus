@@ -21,7 +21,7 @@ public class BooksCacheProducer {
         this.cacheManager = cacheManager;
     }
 
-    @Scheduled(every = "1s")
+    //@Scheduled(every = "1s") //momentaneamente disabilitato
     void pushBook() {
         try {
             if (booksCache == null) {
